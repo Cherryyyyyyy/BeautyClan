@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+    
+    
+    <HorizontalScrollView 
+        
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="none">
+        
+        
+        
+        <LinearLayout 
+            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           >
+          <ImageView 
+              
+              android:layout_width="280dp"
+              android:layout_height="280dp"
+              android:src="@drawable/s1"
+              android:layout_gravity="center_horizontal"
+              android:id="@+id/ivs1"
+              android:padding="1dp"/>  
+            
+            
+            <ImageView 
+              
+              android:layout_width="280dp"
+              android:layout_height="280dp"
+              android:src="@drawable/s2"
+              android:layout_gravity="center_horizontal"
+              android:id="@+id/ivs2"
+              android:padding="1dp"/>  
+            
+            
+            
+            <ImageView 
+              
+              android:layout_width="280dp"
+              android:layout_height="280dp"
+              android:src="@drawable/s3"
+              android:layout_gravity="center_horizontal"
+              android:id="@+id/ivs3"
+              android:padding="1dp"/>  
+            
+            <ImageView 
+              
+              android:layout_width="280dp"
+              android:layout_height="280dp"
+              android:src="@drawable/s4"
+              android:layout_gravity="center_horizontal"
+              android:id="@+id/ivs4"
+              android:padding="1dp"/>  
+             
+            
+          
+          
+          
+          
+        </LinearLayout>
+        
+        
+    </HorizontalScrollView>
+
+    
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call" 
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    
+    </LinearLayout>
+
